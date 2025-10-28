@@ -1,14 +1,14 @@
-# 🏦 Mini Banking System (Java OOP Project)
+# Java Bank (Mini Banking System)
 
 A simple **Java CLI application** demonstrating **OOP concepts** — encapsulation, inheritance, polymorphism, and exception handling.
 
-## ✨ Features
+## Features
 - Create account (Savings / Checking)
 - Deposit / Withdraw / Transfer
 - Transaction history
 - Monthly interest / fees processing
 
-## 🧩 OOP Concepts
+## OOP Concepts
 | Concept | Example |
 |----------|----------|
 | Encapsulation | Private fields + getters/setters |
@@ -16,13 +16,7 @@ A simple **Java CLI application** demonstrating **OOP concepts** — encapsulati
 | Polymorphism | `monthEndProcess()` behaves differently per account type |
 | Exception Handling | Custom error messages for invalid operations |
 
-## 🛠️ Technologies
+## Technologies
 - Java 17+
 - CLI-based (no framework)
 - Modular folder structure
-
-## 🚀 Run
-```bash
-javac com/example/bank/**/*.java
-java com.example.bank.BankApp
-```
